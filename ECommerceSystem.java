@@ -39,13 +39,13 @@ public class ECommerceSystem
 
     	// products.add(new Product("Acer Laptop", generateProductId(), 989.0, 99, Product.Category.COMPUTERS));
     	// products.add(new Product("Apex Desk", generateProductId(), 1378.0, 12, Product.Category.FURNITURE));
-    	// products.add(new Book("Book", generateProductId(), 45.0, 4, 2, "Ahm Gonna Make You Learn", "T. McInerney", 2000));
+    	// products.add(new Book("Book", generateProductId(), 45.0, 4, 2, "Ahm Gonna Make You Learn", "Mr. Professor", 2000));
     	// products.add(new Product("DadBod Jeans", generateProductId(), 24.0, 50, Product.Category.CLOTHING));
     	// products.add(new Product("Polo High Socks", generateProductId(), 5.0, 199, Product.Category.CLOTHING));
     	// products.add(new Product("Tightie Whities", generateProductId(), 15.0, 99, Product.Category.CLOTHING));
     	// products.add(new Book("Book", generateProductId(), 35.0, 4, 2, "How to Fool Your Prof", "D. Umbast", 1950));
     	// products.add(new Book("Book", generateProductId(), 45.0, 4, 2, "How to Escape from Prison", "A. Fugitive", 2003));
-    	// products.add(new Book("Book", generateProductId(), 44.0, 14, 12, "Ahm Gonna Make You Learn More", "T. McInerney", 2022));
+    	// products.add(new Book("Book", generateProductId(), 44.0, 14, 12, "Ahm Gonna Make You Learn More", "Mr. Professor", 2022));
     	// products.add(new Product("Rock Hammer", generateProductId(), 10.0, 0, Product.Category.GENERAL));
       
     	// *Create some customers. Notice how generateCustomerId() method is used
@@ -62,10 +62,10 @@ public class ECommerceSystem
       // *More Books to test Bonus Function
       // products.add(new Book("Book", generateProductId(), 35.0, 4, 2, "Harry Potter", "J. K. Rowling", 1997));
     	// products.add(new Book("Book", generateProductId(), 45.0, 4, 2, "The Lord of the Rings", "Tolkien", 1995));
-    	// products.add(new Book("Book", generateProductId(), 44.0, 14, 12, "Testing Oriented Programming", "T. McInerney", 2005));
+    	// products.add(new Book("Book", generateProductId(), 44.0, 14, 12, "Testing Oriented Programming", "Mr. Professor", 2005));
       // products.add(new Book("Book", generateProductId(), 35.0, 4, 2, "The Hobbit", "Tolkien", 1937));
     	// products.add(new Book("Book", generateProductId(), 45.0, 4, 2, "The Silmarillion", "Tolkien", 1977));
-    	// products.add(new Book("Book", generateProductId(), 44.0, 14, 12, "Testing 101", "T. McInerney", 2012));  
+    	// products.add(new Book("Book", generateProductId(), 44.0, 14, 12, "Testing 101", "Mr. Professor", 2012));  
       
       // Read from the file with the txt file enterted into the parameter
       try {
