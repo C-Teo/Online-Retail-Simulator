@@ -1,4 +1,4 @@
-# Online-Retail-Simulator
+# Online-Retail-Simulator 
 This Online Retail Simulator was created as a university project with starter boilerplate code. Functionality was then explained and required the programmer to build apon it themselves. A quick description of the purpose of the program is explained below, the commands can also be foud at the bottom of the document.
 
 # How To Run
@@ -12,7 +12,7 @@ You can also just utilize this command directly in new versions of Java.
 ```
 java EcommerceUserInterface.java
 ```
-
+Finally, in editors like VSCode, you can just download the Coderunner extension to execute the code for you.
 # Purpose Statement
 
 
@@ -32,6 +32,10 @@ java EcommerceUserInterface.java
 >This command will print out all orders in the simulation. Orders allow customers to purchase products. Orders can be created with an alternate command.
 ### **SHIPPED**
 >This command will print out all shipped products in the simulation. If you create an order for a customer and ship it, it will be present in this list.
+### **STATS**
+>This command will print all products and their respective ratings. See the alternate rating command (RATE) to rate a product.
+### **PRODRATING**
+>This command will print all products from greatest rating to least. See the alternate rating command (RATE) to rate a product.
 
 ## Sorting Commands (Sorted Output)
 ## **SORTBYPRICE**
