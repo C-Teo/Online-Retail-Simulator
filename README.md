@@ -3,7 +3,6 @@ This Online Retail Simulator was created as a university project with starter bo
 
 # How To Run
 Running this program is really simple. All you need is the Java compiler on your PC and an IDE that will allow you to run the program. Since this is a non-graphics based project, the source will have to be manually compiled.
-
 ```
 javac ECommerceUserInterface.java
 java ECommerceUserInterface
