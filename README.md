@@ -14,7 +14,7 @@ java EcommerceUserInterface.java
 ```
 Finally, in editors like VSCode, you can just download the Coderunner extension to execute the code for you.
 # Purpose Statement
-
+This program allows you to simulate a simple Ecommerce System with two methods of purchase. You can either utilize commandst to directly order products for customers. Or instead utilize the cart method, and add items to a users cart before purchase. Shipping is done the same for both. Customers can be added using built-in commands. The database of products must be coded in directly, but it is a rather easy implimentation to be done through the program.
 
 # Commands
 ## Input Commands (Information Saved To Database)
@@ -58,3 +58,11 @@ Finally, in editors like VSCode, you can just download the Coderunner extension 
 >This command will print all book products written by the provided author.
 
 ## Cart Commands (Advanced Method of Purchase)
+### **ADDTOCART**
+>This command lets you add a product to a customers cart.
+### **REMCARTITEM**
+>This command lets remove a product from a customers cart.
+### **PRINTCART**
+>This command lets you output all products of the provided customer.
+### **ORDERITEMS**
+>This command will order the items inside the customers cart. Shipping is done manually afterwards.
