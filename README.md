@@ -1,1 +1,19 @@
 # Online-Retail-Simulator
+This Online Retail Simulator was created as a university project with starter boilerplate code. Functionality was then explained and required the programmer to build apon it themselves. A quick description of the purpose of the program is explained below, the commands can also be foud at the bottom of the document.
+
+# Purpose Statement
+
+
+# Commands
+## Output Commands (Information to Screen)
+### **PRODS**
+>This command will print out all current registered products in the simulation. Products can be added with an alternate command.
+### **CUSTS**
+>This command will print out all current registered customers in the simulation. Customers can be added with an alternate command.
+### **BOOKS**
+>This command will print all products in the simulation that are strictly of type book. This is a child command of PRODS.
+### **ORDERS**
+>This command will print out all orders in the simulation. Orders allow customers to purchase products. Orders can be created with an alternate command.
+### **SHIPPED**
+>This command will print out all shipped products in the simulation. If you create an order for a customer and ship it, it will be present in this list.
+
