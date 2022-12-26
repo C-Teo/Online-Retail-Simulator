@@ -19,7 +19,17 @@ Finally, in editors like VSCode, you can just download the Coderunner extension 
 # Commands
 ## Input Commands (Information Saved To Database)
 ### **NEWCUST**
-
+>This command lets you allocate space for a new customer in the database. You will have to provide it with a quick user profile, but the allocation is done using linear probing.
+### **ORDER**
+>This command lets you order a product for a respective customer. This command does not work with books and shoes as those products require added detail.
+### **ORDERBOOK**
+>This command is a child of ORDER and lets you order a book for a respective customer.
+### **ORDERSHOES**
+>This command is a child of ORDER and lets you order shoes for a respective customer.
+### **CANCEL**
+>This command lets you cancel an order.
+### **SHIP**
+>This command lets you ship an order that you have already created prior. Once a product is shipped, it cannot be returned.
 
 ## Output Commands (Information to Screen)
 ### **PRODS**
@@ -38,11 +48,11 @@ Finally, in editors like VSCode, you can just download the Coderunner extension 
 >This command will print all products from greatest rating to least. See the alternate rating command (RATE) to rate a product.
 
 ## Sorting Commands (Sorted Output)
-## **SORTBYPRICE**
+### **SORTBYPRICE**
 >This command will print all products from least to greatest by the price of the product. This command will output the same amount of information as PRODS but with a different order.
-## **SORTBYNAME**
+### **SORTBYNAME**
 >This command will print all products in alphabetical order. This command will output the same amount of information as PRODS but with a different order.
-## **SORTCUSTS**
+### **SORTCUSTS**
 >This command will print all customers in alphabetical order. This command will output the same amount of information as CUSTS but with a different order.
-## **BOOKSBYAUTHOR**
+### **BOOKSBYAUTHOR**
 
