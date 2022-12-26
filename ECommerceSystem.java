@@ -401,6 +401,7 @@ public class ECommerceSystem
     public void sortCustomersByName()
     {
   	  Collections.sort(customers);
+      System.out.println("Customers have been sorted!");
     }
 
     // Comparator Class used for sorting books by year published

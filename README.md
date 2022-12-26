@@ -69,12 +69,12 @@ If you want to include a shoes object, currently it is only possible through dir
 >This command will print all products from greatest rating to least. See the alternate rating command (RATE) to rate a product.
 
 ## *Sorting Commands (Sorted Output)*
-### **SORTBYPRICE**
+### **PRINTBYPRICE**
 >This command will print all products from least to greatest by the price of the product. This command will output the same amount of information as PRODS but with a different order.
-### **SORTBYNAME**
+### **PRINTBYNAME**
 >This command will print all products in alphabetical order. This command will output the same amount of information as PRODS but with a different order.
 ### **SORTCUSTS**
->This command will print all customers in alphabetical order. This command will output the same amount of information as CUSTS but with a different order.
+>This command will print all customers in alphabetical order. Unlike the other sorting commands, this command will not output the customers directly and does in-place sorting. Please reuse the CUSTS command to see the now sorted list.
 ### **BOOKSBYAUTHOR**
 >This command will print all book products written by the provided author.
 
