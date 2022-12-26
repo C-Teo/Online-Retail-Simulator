@@ -17,7 +17,11 @@ Finally, in editors like VSCode, you can just download the Coderunner extension 
 This program allows you to simulate a simple Ecommerce System with two methods of purchase. You can either utilize commandst to directly order products for customers. Or instead utilize the cart method, and add items to a users cart before purchase. Shipping is done the same for both. Customers can be added using built-in commands. The database of products must be coded in directly, but it is a rather easy implimentation to be done through the program.
 
 # Commands
-## Input Commands (Information Saved To Database)
+### **Q**
+>This command will exit the simulation.
+### **QUIT**
+>This is a reflavour of the Q command.
+## *Input Commands (Information Saved To Database)*
 ### **NEWCUST**
 >This command lets you allocate space for a new customer in the database. You will have to provide it with a quick user profile, but the allocation is done using linear probing.
 ### **ORDER**
@@ -31,7 +35,7 @@ This program allows you to simulate a simple Ecommerce System with two methods o
 ### **SHIP**
 >This command lets you ship an order that you have already created prior. Once a product is shipped, it cannot be returned.
 
-## Output Commands (Information to Screen)
+## *Output Commands (Information to Screen)*
 ### **PRODS**
 >This command will print out all current registered products in the simulation. Products can be added with an alternate command.
 ### **CUSTS**
@@ -47,7 +51,7 @@ This program allows you to simulate a simple Ecommerce System with two methods o
 ### **PRODRATING**
 >This command will print all products from greatest rating to least. See the alternate rating command (RATE) to rate a product.
 
-## Sorting Commands (Sorted Output)
+## *Sorting Commands (Sorted Output)*
 ### **SORTBYPRICE**
 >This command will print all products from least to greatest by the price of the product. This command will output the same amount of information as PRODS but with a different order.
 ### **SORTBYNAME**
@@ -57,7 +61,7 @@ This program allows you to simulate a simple Ecommerce System with two methods o
 ### **BOOKSBYAUTHOR**
 >This command will print all book products written by the provided author.
 
-## Cart Commands (Advanced Method of Purchase)
+## *Cart Commands (Advanced Method of Purchase)*
 ### **ADDTOCART**
 >This command lets you add a product to a customers cart.
 ### **REMCARTITEM**
