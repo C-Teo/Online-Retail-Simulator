@@ -5,6 +5,8 @@ This Online Retail Simulator was created as a university project with starter bo
 
 
 # Commands
+## Input Commands (Information Saved To Database)
+
 ## Output Commands (Information to Screen)
 ### **PRODS**
 >This command will print out all current registered products in the simulation. Products can be added with an alternate command.
@@ -16,4 +18,13 @@ This Online Retail Simulator was created as a university project with starter bo
 >This command will print out all orders in the simulation. Orders allow customers to purchase products. Orders can be created with an alternate command.
 ### **SHIPPED**
 >This command will print out all shipped products in the simulation. If you create an order for a customer and ship it, it will be present in this list.
+
+## Sorting Commands (Sorted Output)
+## **SORTBYPRICE**
+>This command will print all products from least to greatest by the price of the product. This command will output the same amount of information as PRODS but with a different order.
+## **SORTBYNAME**
+>This command will print all products in alphabetical order. This command will output the same amount of information as PRODS but with a different order.
+## **SORTCUSTS**
+>This command will print all customers in alphabetical order. This command will output the same amount of information as CUSTS but with a different order.
+## **BOOKSBYAUTHOR**
 
