@@ -55,4 +55,4 @@ Finally, in editors like VSCode, you can just download the Coderunner extension 
 ### **SORTCUSTS**
 >This command will print all customers in alphabetical order. This command will output the same amount of information as CUSTS but with a different order.
 ### **BOOKSBYAUTHOR**
-
+>This command will print all book products written by the provided author.
