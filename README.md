@@ -1,11 +1,25 @@
 # Online-Retail-Simulator
 This Online Retail Simulator was created as a university project with starter boilerplate code. Functionality was then explained and required the programmer to build apon it themselves. A quick description of the purpose of the program is explained below, the commands can also be foud at the bottom of the document.
 
+# How To Run
+Running this program is really simple. All you need is the Java compiler on your PC and an IDE that will allow you to run the program. Since this is a non-graphics based project, the source will have to be manually compiled.
+
+```
+javac ECommerceUserInterface.java
+java ECommerceUserInterface
+```
+You can also just utilize this command directly in new versions of Java.
+```
+java EcommerceUserInterface.java
+```
+
 # Purpose Statement
 
 
 # Commands
 ## Input Commands (Information Saved To Database)
+### **NEWCUST**
+
 
 ## Output Commands (Information to Screen)
 ### **PRODS**
