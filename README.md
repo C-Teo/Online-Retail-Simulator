@@ -14,7 +14,25 @@ java EcommerceUserInterface.java
 ```
 Finally, in editors like VSCode, you can just download the Coderunner extension to execute the code for you.
 # Purpose Statement
-This program allows you to simulate a simple Ecommerce System with two methods of purchase. You can either utilize commandst to directly order products for customers. Or instead utilize the cart method, and add items to a users cart before purchase. Shipping is done the same for both. Customers can be added using built-in commands. The database of products must be coded in directly, but it is a rather easy implimentation to be done through the program.
+This program allows you to simulate a simple Ecommerce System with two methods of purchase. You can either utilize commandst to directly order products for customers. Or instead utilize the cart method, and add items to a users cart before purchase. Shipping is done the same for both. Customers can be added using built-in commands. The database of products must be coded in directly or provided through the products.txt, but it is a rather easy implimentation to be done through the program.
+
+If you wish to add a product to the products.txt, get a good understanding of the properties of the product you wish to add. 
+For example, if you wanted to add a basic GENERAL product, you would have to provide a category, name, price, and stock.
+```
+GENERAL
+Rock Hammer
+10.0
+22
+```
+For example, if you wanted to include a new book object, you would have to include the prior info and also provide extra types of stock (Hardcover, Paperback), author, title, and year.
+```
+BOOKS
+Book
+45.0
+4 2
+Ahm Gonna Make You Learn More:Mr. Professor:2022
+```
+If you want to include a shoes object, currently it is only possible through direct code in the database. Please see the commented out shoe objects in Ecommerce System to add your own.
 
 # Commands
 ### **Q**
